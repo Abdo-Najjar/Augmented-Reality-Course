@@ -1,0 +1,505 @@
+
+
+@font-face { font-family: fontL;
+    src: url('../fonts/helvetica-neue-lt-arabic-45-light.ttf'); }
+
+
+@font-face { font-family: fontHB;
+    src: url('../fonts/helvetica-neue-lt-arabic-75-bold.ttf'); }
+
+
+
+
+
+
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 40px;
+    margin-left: 4%;
+    margin-right:4%;
+    font-family: fontL;
+    
+   /* overflow-x: hidden;*/
+}
+
+.logo1{
+    width: 19%;
+    height: 74px;
+    background-color: white;
+    float: left;
+    position: relative;
+    border-bottom-right-radius: 10px;
+    left:0px;
+    top: 6px;
+  
+
+}
+
+.logo1 img{
+    padding-top: 20px;
+    padding-left: 8px;
+}
+
+
+.headerNav{
+    float: right;
+    width: 81%;
+    height: 74px;
+    background-color: #28B260;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+
+
+
+
+.clean{
+    clear: both;
+}
+
+.backContent{
+    float: left;
+    width: 85%;
+    height: 510px;
+    background-color:#28B260; 
+    
+    border-bottom-left-radius: 20px;
+
+    
+}
+
+
+
+
+
+.imageContener{
+    float: left;
+    width: 40%;
+   
+
+}
+
+.imageContener .checkImg{
+     margin-top: 50px;
+    margin-left: 46%;
+    margin-bottom: 40px;
+
+   
+}
+
+
+
+.imageContener .trueImage{
+    margin-left: 28%;
+   
+}
+
+
+
+
+
+
+
+
+
+.questionContent{
+    float: right;
+    width: 60%;
+    
+}
+.questionContent .yourP{
+    
+        
+    color: white;
+    font-family:fontHB;
+    font-size: 35px;
+    text-align: right;
+    margin: 0px;
+    margin-top: 80px;
+    margin-right: 20%;
+}
+
+
+.questionContent .answerP{
+        
+    color: white;
+    font-family:fontHB;
+    font-size: 45px;
+    text-align: right;
+    margin: 0px;
+
+    margin-right: 20%;
+}
+
+
+
+.btn{
+    width:38% ;
+    height:49px;
+    background-color:white;
+    border:1px solid transparent;
+    border-color:#ccc;
+    border-radius: 20px;
+    color: #28B360;
+    text-align: center;
+    font-size: 17px;
+    font-family: fontHB;
+    margin-left: 7%;
+    margin-top:16%;
+    margin-bottom: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    background-color:#28B360;
+}
+
+
+.btn:focus{
+        color: white;
+    background-color:#28B360;
+}
+
+
+.btn .fa-arrow-left{
+     position: relative;
+    right: 20px;
+}
+
+
+
+
+
+
+aside{
+    float: right;
+    width: 15%;
+    height: 400px;
+    border-bottom-right-radius: 20px;
+    background-color: #28B260;
+}
+
+
+
+
+.circle{
+       background-color:  #35D59C;
+       opacity: 15%;
+     position: relative;
+}
+
+
+
+.circle1{
+    width:41.73px;
+    height:41.73px;
+    border-radius: 50%;
+    top: 140px;
+    left: 60px;
+    display: inline-block;
+   
+
+}
+
+.circle2{
+    
+    width:17.5px;
+    height:17.5px;
+    border-radius: 50%;
+    top: 300px;
+    right: 60px;
+        display: inline-block;
+
+
+
+    
+
+}
+
+.circle3{
+    width:10.77px;
+    height:10.77px;
+    border-radius: 50%;
+        display: inline-block;
+    top: 230px;
+    left: 50px;
+ 
+    
+    
+}
+
+
+.circle4{
+    width:8.08px;
+    height:8.08px;
+    border-radius: 50%;
+    display: inline-block;
+    top: 190px;
+    right: 100px;
+
+
+}
+
+
+
+
+
+.logoBottom{
+    width:15%;
+
+    background-color:white;
+    float: left;
+    position: relative;
+    border-top-left-radius: 10px;
+    right:5px;
+    bottom: 1px;
+    padding-top: 6px;
+ 
+
+}
+
+
+
+.logoBottom img{
+    padding-top: 5px;
+    padding-left: 22px;
+    padding-bottom: 10px;
+}
+
+
+
+
+    .imgHidden{
+         display: none
+    }
+
+
+
+
+@media(max-width:1200px){
+    
+   
+    
+.headerNav{
+
+    width: 76%;
+
+}
+
+    
+    
+.logo1{
+    width: 24%;
+
+  
+
+}
+
+        .imgHidden{
+         display: none
+    }
+    
+    
+    .logoBottom img{
+
+    padding-bottom: 22px;
+}
+    
+    .btn{
+     
+        margin-left:10%;
+    }
+    
+    
+}
+    
+    
+
+
+
+
+
+
+@media(max-width:992px){
+      
+    
+.headerNav{
+
+    width: 68%;
+
+}
+
+    
+    
+.logo1{
+    width: 32%;
+
+  
+    
+    
+}
+
+
+    .trueImage{
+        display: none
+
+    }
+    
+          .imgHidden{
+         display:block;
+         margin-left: 240px;
+  
+              
+        
+    }
+    
+    .imgHidden img{
+        width: 17em;
+    }
+
+    
+    
+  
+    
+    .questionContent{
+        width:100%;
+         float: none;
+        
+    }
+    
+    
+    
+.logoBottom img{
+
+    padding-bottom: 310px;
+}
+    
+    
+    
+    .btn{
+        display: block;
+        margin-bottom: 60px;
+        margin-left: 32%;
+        margin-top:10%;
+        height: 70px;
+        font-size:22px;
+
+    }
+    
+    
+    
+    .backContent{
+        height: 800px;
+    }
+    
+    
+    .imageContener{
+        width: 30%;
+    }
+    
+    .imageContener .checkImg{
+    width: 7em;
+        margin-left: 20%;
+        
+
+   
+}
+
+    
+    .questionContent .yourP{
+    
+    font-size: 45px;
+    margin-right: 16%;
+}
+
+
+.questionContent .answerP{
+
+    font-size: 55px;
+    margin-right: 16%;
+}
+    
+    
+    
+    
+    
+    
+}
+    
+    
+
+
+
+
+/* animation */
+
+
+
+
+
+
+
+
+.logo1 img{
+     animation-delay: 0.2s;
+}
+
+
+.yourP{
+     animation-delay: 0.2s;
+}
+ 
+
+.answerP{
+     animation-delay: 0.3s;
+}
+ 
+
+
+
+.circle{
+   animation-delay: 1s;
+       -webkit-animation: infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove infinite; 
+  -webkit-animation-duration:  4s;
+    animation-duration:  4s;
+}
+
+
+
+.btn{
+     animation-delay: 0.3s;
+}
+
+
+.checkImg{
+         animation-delay: 0.4s;
+        -webkit-animation: infinite; /* Safari 4.0 - 8.0 */
+    animation: infinite;
+
+      -webkit-animation-duration: 8s;
+
+    
+}
+
+
+.trueImage{
+         animation-delay: 0.2s;
+
+    
+}
+
+
+.logoBottom img{
+             animation-delay: 0.2s;
+
+}
+
+

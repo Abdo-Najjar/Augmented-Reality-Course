@@ -1,0 +1,558 @@
+
+
+@font-face { font-family: fontL;
+    src: url('../fonts/helvetica-neue-lt-arabic-45-light.ttf'); }
+
+
+@font-face { font-family: fontHB;
+    src: url('../fonts/helvetica-neue-lt-arabic-75-bold.ttf'); }
+
+
+
+
+
+
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 40px;
+    margin-left: 4%;
+    margin-right:4%;
+    font-family: fontL;
+    
+   /* overflow-x: hidden;*/
+}
+
+.logo1{
+    width: 19%;
+    height: 74px;
+    background-color: white;
+    float: left;
+    position: relative;
+    border-bottom-right-radius: 10px;
+    left:0px;
+    top: 6px;
+  
+
+}
+
+.logo1 img{
+    padding-top: 20px;
+    padding-left: 8px;
+}
+
+
+.headerNav{
+    float: right;
+    width: 81%;
+    height: 74px;
+    background-color: #9A55B5;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+ul{
+
+    display: block;
+    margin-top: 10px;
+    margin-left:4%;
+
+}
+
+
+li a{
+    color:#287FB9;
+    text-decoration: none;
+  
+
+}
+ul li{
+    background-color: white;
+    float: left;
+    list-style-type: none;
+}
+
+
+
+ul .numNav {
+    width: 34px;
+    height: 29px;
+    text-align: center;
+    border-radius: 34px;
+    padding-top: 5px;
+   /* padding-left:8px;*/
+    font-size: 20px;
+    font-family:Montserrat;
+    color:#9A51B5;
+
+}
+
+
+
+ul .lineNav{
+    height: 4px;
+    width: 12%;
+    margin-top: 14px;
+}
+ul .lineNav{
+   
+ height: 4px;
+    width: 12%;
+    margin-top: 14px;
+}
+
+.nav{
+    padding-left:50px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+.clean{
+    clear: both;
+}
+
+.backContent{
+    float: left;
+    width: 85%;
+    height: 500px;
+    background-color:#9A55B5; 
+    
+    border-bottom-left-radius: 20px;
+
+    
+}
+
+.imageContener{
+    float: left;
+    width: 30%;
+
+}
+
+.imageContener img{
+    margin-top: 96px;
+    padding-left:16%;
+   
+}
+
+.questionContent{
+    float: right;
+    width: 70%;
+    
+}
+
+
+.questionPrag{
+    
+    color: white;
+    font-family:fontHB;
+    font-size: 25px;
+    text-align: right;
+    margin: 0px;
+    margin-top: 40px;
+    margin-right: 6%;
+        line-height:1.6;
+
+   
+}
+
+.option1{
+   
+    float: right;
+    margin-top:60px;
+    margin-right: 16%;
+    
+    
+}
+
+
+.option2{
+   
+    margin-top:60px;
+    margin-left: 8%;
+    
+}
+
+
+
+
+
+.option{
+    width:32% ;
+    height:45px;
+    background-color:#9A55B5;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    
+    
+}
+
+.option span{
+    float: right;
+    position: relative;
+    margin-top: 13.5px;
+    right: 52px;
+    
+}
+
+.option span.fa-check-circle-o{
+    font-size: 22px;
+    
+  
+}
+
+
+.btn{
+    width:32% ;
+    height:49px;
+    background-color:white;
+    border:1px solid transparent;
+    border-color:#ccc;
+    border-radius: 20px;
+    color: #9A55B5;
+    text-align: center;
+    font-size: 17px;
+    font-family: fontHB;
+    margin-left: 8%;
+    margin-top:12%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    background-color:#9A55B5;
+}
+
+
+.btn:focus{
+        color: white;
+    background-color:#9A55B5;
+}
+
+
+.btn .fa-arrow-left{
+     position: relative;
+    right: 20px;
+}
+
+
+
+.option:hover{
+    color: #9A55B5;
+    background-color:white;
+}
+
+.option:focus{
+    color: #9A55B5;
+    background-color:white;
+}
+
+
+
+aside{
+    float: right;
+    width: 15%;
+    height: 400px;
+    border-bottom-right-radius: 20px;
+    background-color: #9A55B5;
+}
+
+aside .number{
+    margin-top: 34px;
+}
+
+aside .pole{
+    margin-top: 24px;
+    margin-left: 18%;
+}
+
+
+
+
+.circle{
+       background-color:  #BF93D0;
+       opacity: 15%;
+     position: relative;
+}
+
+
+
+.circle1{
+    width:41.73px;
+    height:41.73px;
+    border-radius: 50%;
+    left: 100px;
+    bottom: 120px;
+    display: inline-block;
+   
+
+}
+
+.circle2{
+    
+    width:17.5px;
+    height:17.5px;
+    border-radius: 50%;
+        display: inline-block;
+    top: 10px;
+    left: 10px;
+
+
+    
+
+}
+
+.circle3{
+    width:10.77px;
+    height:10.77px;
+    border-radius: 50%;
+        display: inline-block;
+     bottom: 46px;
+    left: 10px;
+    
+    
+}
+
+
+.circle4{
+    width:8.08px;
+    height:8.08px;
+    border-radius: 50%;
+    display: inline-block;
+    bottom: 60px;
+    right: 120px;
+
+}
+
+
+
+.circle5{
+   display: inline-block;
+
+}
+
+
+
+
+
+.logoBottom{
+    width:15%;
+
+    background-color:white;
+    float: left;
+    position: relative;
+    border-top-left-radius: 10px;
+    right:5px;
+    bottom: 1px;
+    padding-top: 6px;
+ 
+
+}
+
+
+
+.logoBottom img{
+    padding-top: 5px;
+    padding-left: 22px;
+    padding-bottom: 6px;
+}
+
+
+
+
+    .imgHidden{
+         display: none
+    }
+
+
+
+
+@media(max-width:1200px){
+    
+   
+    
+.headerNav{
+
+    width: 76%;
+
+}
+
+    
+    
+.logo1{
+    width: 24%;
+
+  
+
+}
+
+        .imgHidden{
+         display: none
+    }
+    
+    
+    .logoBottom img{
+
+    padding-bottom: 22px;
+}
+    
+    
+}
+    
+    
+
+
+
+
+
+
+@media(max-width:992px){
+      
+    
+.headerNav{
+
+    width: 68%;
+
+}
+
+    
+    
+.logo1{
+    width: 32%;
+
+  
+    
+    
+}
+
+
+    .imageContener{
+        display: none
+
+    }
+    
+          .imgHidden{
+         display:block;
+              
+           
+              margin-left: 60px;
+    }
+
+    
+    
+  
+    
+    .questionContent{
+        width:100%;
+         float: none;
+    }
+    
+    
+    
+.logoBottom img{
+
+    padding-bottom: 280px;
+}
+    
+    
+    
+    .btn{
+        display: block;
+        margin-bottom: 60px;
+    }
+    
+    
+    
+    .backContent{
+        height: 680px;
+    }
+    
+    
+    
+}
+    
+    
+
+
+
+
+/* animation */
+
+
+.logo1 img{
+     animation-delay: 0.2s;
+}
+
+.logoBottom img{
+             animation-delay: 0.2s;
+
+}
+
+.questionPrag{
+    
+    animation-delay: 0.3s;
+}
+
+
+
+.imageContener img{
+    
+     animation-delay: 0.6s;
+}
+
+.option1{
+         animation-delay: 0.4s;
+
+    
+}
+
+.option2{
+         animation-delay: 0.6s;
+
+    
+}
+
+
+.btn{
+     animation-delay: 0.8s;
+}
+
+
+
+.nav{
+      animation-delay: 0.6s;
+}
+
+
+.circle{
+    
+           animation-delay: 1s;
+       -webkit-animation: infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove infinite; 
+  -webkit-animation-duration:  4s;
+    animation-duration:  4s;
+}
+
+.circle5{
+    
+           animation-delay: 1s;
+       -webkit-animation: infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove infinite; 
+  -webkit-animation-duration:  4s;
+    animation-duration:  4s;
+}
+
+
